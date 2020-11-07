@@ -27,7 +27,7 @@ export interface FetchedStory {
   url: string;
   user: string;
 }
-
+//asdasd
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const page = Number(query.page) || 1;
   type Props = { errorStatus: null | number; stories: FetchedStory[]; page: number };
