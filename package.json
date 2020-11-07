@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 8080",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "npm run build"
   },
   "engines": {
     "node": "14.0.0"
